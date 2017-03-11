@@ -9,5 +9,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-<gap:plugin name="org.apache.cordova.media" />
+<plugin name="org.apache.cordova.media" spec="0.2.16" source="pgb" />
 </widget>
