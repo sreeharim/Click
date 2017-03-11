@@ -30,10 +30,8 @@ var myApp = angular.module("myModule",[])
     				var mytimeout;
     				$scope.playSound = function(){
  			         var q= window.location.pathname;
-        			var url = q.substring(0, q.lastIndexOf('/')) + "/311.mp3";
-        			 console.log(url);
-        			
- 			         var myMedia = new Media(url,
+        			var url = q.substring(0, q.lastIndexOf('/')) + "/res/click.wav";
+        					         var myMedia = new Media(url,
             // success callback
              function () { console.log("playAudio():Audio Success"); },
             // error callback
