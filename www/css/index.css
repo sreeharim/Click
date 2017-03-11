@@ -1,0 +1,62 @@
+
+
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 150px;
+  height: 150px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 75px;
+}
+.btn-circle.btn-xl:focus{
+ outline-style: none;
+}
+.center-button {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -50px;
+  top: 50%;
+  left: 43%;
+  outline-style: none;
+}
+
+.center-label {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -50px;
+  top: 40%;
+  left: 48.5%;
+  min-width: 100px;
+}
+.center-timer {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -50px;
+  top: 30%;
+  left: 48.5%;
+  min-width: 100px;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
