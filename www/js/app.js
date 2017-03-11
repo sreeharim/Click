@@ -29,8 +29,8 @@ var myApp = angular.module("myModule",[])
     				}	
     				var mytimeout;
     				$scope.playSound = function(){
- 			         var p= window.location.pathname;
-        			var url = p.substring(0, p.lastIndexOf('/')) + "/311.mp3";
+ 			         var q= window.location.pathname;
+        			var url = q.substring(0, q.lastIndexOf('/')) + "/311.mp3";
         			 console.log(url);
         			
  			         var myMedia = new Media(url,
